@@ -1,0 +1,6 @@
+fib = []
+x, y = 0, 1 
+while y < 56 : 
+  fib.append(y) 
+  x, y = y, x + y
+print(fib)
